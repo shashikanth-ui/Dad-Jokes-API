@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(195, 231, 240);
+}
+h1{
+    font-size: 3rem;
+    color: rgb(21, 4, 97);
+}
+h2{
+    font-size: 2rem;
+    color: rgb(112, 70, 228)
+}
+button{
+    border-radius: 999px;
+    height: 45px;
+    width: 90px;
+}
